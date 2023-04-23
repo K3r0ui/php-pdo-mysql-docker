@@ -1,9 +1,9 @@
 <?php
 
 $host = 'db'; //Nom donné dans le docker-compose.yml
-$user = 'myuser';
-$password = 'monpassword';
-$dbname = 'tutoseu';
+$user = 'YOUR_SQL_USER';
+$password = 'YOUR_SQL_USER_PSW';
+$dbname = 'YOUR_DATE_BASE_NAME';
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $user, $password);

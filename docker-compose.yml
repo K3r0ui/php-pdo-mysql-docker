@@ -19,9 +19,9 @@ services:
   command: --default-authentication-plugin=mysql_native_password
   environment:
    MYSQL_ROOT_PASSWORD: k3r0ui
-   MYSQL_DATABASE: k3r0ui
-   MYSQL_USER: myuser
-   MYSQL_PASSWORD: monpassword
+   MYSQL_DATABASE: YOUR_DATE_BASE_NAME
+   MYSQL_USER: YOUR_SQL_USER
+   MYSQL_PASSWORD: YOUR_SQL_USER_PSW
   ports:
    - 3306:3306
  phpmya:
